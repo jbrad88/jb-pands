@@ -18,4 +18,4 @@ if date < 4:
 
 else:
     print('Weekend, party time!')
-# Its 5 or 6 = Saturday or Sunday, i.e. the weekend!
+# Its 5 or 6 = Saturday or Sunday, i.e. the weekend! 
