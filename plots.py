@@ -7,7 +7,7 @@
 
 import numpy as np
 import  matplotlib.pyplot as plt
-x = np.arange(0, 4)
+x = np.linspace(0, 4, 100)
 
 f = x
 plt.plot(x, f)
@@ -21,5 +21,8 @@ plt.plot(x, h)
 plt.savefig('plot.png')
 
 plt.show('plot.png')
+
+# REFERENCES
+# https://jakevdp.github.io/PythonDataScienceHandbook/04.00-introduction-to-matplotlib.html
 
 
