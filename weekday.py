@@ -11,7 +11,7 @@ date = now.weekday()
 # Defines date
 
 day = ('Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday')
-# Sets dictionary for date names in relation to indexing used by datetime.
+# Defines weekdays as a tuple.
 
 print('Today is', day[date])
 
@@ -21,7 +21,7 @@ if date < 4:
 
 else:
     print('Weekend, party time!')
-# Its 5 or 6 = Saturday or Sunday, i.e. the weekend! 
+# Its 5 or 6 = Saturday or Sunday, i.e. the weekend!
 
 # REFERENCES
 # https://pythontic.com/datetime/date/weekday
