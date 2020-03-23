@@ -5,13 +5,21 @@
 # 3. h(x) = x**3
 # ... in the range of [0,4]
 
-def f(x):
-    return x
+import numpy as np
+import  matplotlib.pyplot as plt
+x = np.arange(0, 4)
 
-def g(x):
-    return x * x
+f = x
+plt.plot(x, f)
 
-def h(x):
-    x ** 3
+g = x ** 2
+plt.plot(x, g)
+
+h = x ** 3
+plt.plot(x, h)
+
+plt.savefig('plot.png')
+
+plt.show('plot.png')
 
 

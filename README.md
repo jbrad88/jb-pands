@@ -14,3 +14,5 @@ This repository includes the following programs:
 5. squareroot.py - this program takes a positive floating point number and outputs an approximation of its square root.
 
 6. es.py - this program reads in a text file (in this case Moby Dick) and outputs the number of e's it contains.
+
+7. plots.py - this program displays a plot of the functions f(x)=x, g(x) = x^2 abd h(x)=x^3
